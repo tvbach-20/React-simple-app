@@ -19,6 +19,12 @@ const styles = makeStyles(() =>
     },
     groupForm: {
       marginTop: "20px",
+    },
+    listTodos: {
+      margin: "30px",
+    },
+    todos: {
+      padding: "10px"
     }
   })
 )
