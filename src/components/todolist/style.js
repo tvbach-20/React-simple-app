@@ -24,7 +24,11 @@ const styles = makeStyles(() =>
       margin: "30px",
     },
     todos: {
-      padding: "10px"
+      padding: "10px",
+      listStyle: "none",
+    },
+    checked: {
+      textDecorationStyle: "line-through",
     }
   })
 )

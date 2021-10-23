@@ -39,8 +39,8 @@ const View = () => {
             onKeyPress={(e) => handlePressAddToDo(e)}
             onChange={(e) => handleOnchange(e)}
           />
-          <Button variant="contained" color="secondary">
-            Secondary
+          <Button variant="contained" color="secondary" onClick={addTodo}>
+            Create
           </Button>
         </div>
         <div className={classes.listTodos}>
